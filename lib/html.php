@@ -2292,7 +2292,7 @@ function html_common_header($title, $selectedTheme = '') {
 	}
 
 	if ($selectedTheme == 'classic') {
-		print "<meta content='width=device-width, initial-scale=0.5, minimum-scale=0.2, maximum-scale=2.0' name='viewport'>" . PHP_EOL;
+		print "<meta content='width=device-width, initial-scale=0.25, minimum-scale=0.25, maximum-scale=5.0' name='viewport'>" . PHP_EOL;
 	} else {
 		print "<meta content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>" . PHP_EOL;
 	}
